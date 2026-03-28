@@ -1,5 +1,4 @@
-# sigma-web-development
-# Sigma Web Development Course 🚀
+# Sigma-Web Development🚀
 
 Hi, I'm **[ Muntazir Abbas]** 👋 
 This repository contains all my code, projects, and practice files from the **Sigma Web Development Course**.
