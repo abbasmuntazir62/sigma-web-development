@@ -33,7 +33,7 @@ To become a **Full Stack Web Developer** and build real-world projects.
 🔄 Currently Learning: CSS  
 
 ## 🌟 Connect With Me
-- GitHub: []
+- GitHub: [https://github.com/abbasmuntazir62/sigma-web-development/tree/main]
 - LinkedIn: [https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3B8CpSsZRXRb2mHCRdoe3s7A%3D%3D]
 
 ---
