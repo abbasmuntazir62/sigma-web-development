@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+    <style>
+        div {}
+
+        /* class selector */
+        .red {
+            background-color: blueviolet;
+        }
+
+        /* class selector */
+        .selector {
+            background-color: aqua;
+        }
+
+        /* id selector */
+        #green {
+            background-color: blueviolet;
+        }
+
+        /* child selectors */
+        div>p {
+            color: blueviolet;
+            background-color: blanchedalmond;
+        }
+
+        /* Descendant selector */
+        div p {
+            color: blueviolet;
+            background-color: blanchedalmond;
+        }
+
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo selector */
+        a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            color: brown;
+        }
+        a:active{
+            background-color: crimson;
+        }
+       a:hover{
+        background-color: darkgreen;
+       }
+       p:first-child{
+        background-color: aquamarine;
+       }
+    </style>
+</head>
+
+<body>
+    <main>
+        <p>I am  student </p>
+        <p>I am a cse student </p>
+
+    </main>
+    <div class="red">
+        I am a btech student and my name is Muntazir Abbas
+    </div>
+    <div class="selector">
+        I am a student of second year student
+    </div>
+
+    <div id="green">
+        I am a Developer
+    </div>
+
+    <div>
+        <p> I can make a projects</p>
+    </div>
+
+    <a href="https://www.google.com">Go to Goggle</a>
+    <a href="https://www.Facebook2.com">GO to Facebook</a>
+
+
+</body>
+
+</html>
