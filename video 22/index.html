@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>px,em,rem,vmin and vmax</title>
+    <style>
+          
+    
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html{
+            font-size: 12px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 2048px;
+            margin: auto;
+            height: 10vh;
+            background-color: red;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 10000px;
+            margin: auto;
+            font-size: 24px;
+            height: 40vh;
+            background-color: red;
+
+        }
+        .container p{
+            font-size: 2em;
+        }
+        .mycont{
+             box-sizing: border-box;
+             border: 2px solid black;
+             margin: auto;
+            color: yellow;
+            font-size: 18px;
+            width: 50vmin;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is a box
+    </div>
+
+    <div class="container">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit saepe unde repellendus. Excepturi cupiditate repellendus explicabo quas eveniet corrupti harum nihil earum libero eligendi, tempore eum, minus expedita a placeat cum et dolore molestiae dignissimos officiis?
+    </div>
+
+         <div
+         class="container">
+         This is another container
+        </div>
+</body>
+
+</html>
