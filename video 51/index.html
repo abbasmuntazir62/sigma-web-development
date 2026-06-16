@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css exercise 8 solution</title>
+    <style>
+        .container {
+            width: 80vw;
+            height: 70vh;
+            background-color: blue;
+            border: 2px solid black;
+            position: relative;
+        }
+
+        .box {
+            width: 121px;
+            height: 121px;
+            background-color: red;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            border-radius: 61px;
+            animation: animatex 3s linear infinite,  animatey 1s ease-out infinite alternate;
+        }
+
+        @keyframes animatex {
+            from {
+                left: 0;
+            }
+
+            to {
+                left: 100%;
+            }
+        }
+
+        @keyframes animatey {
+            from {
+                bottom: 0;
+            }
+
+            to {
+                bottom: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+
+</body>
+
+</html>
