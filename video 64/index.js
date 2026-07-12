@@ -1,0 +1,1 @@
+// solution is given already to make a company name by combination of words
